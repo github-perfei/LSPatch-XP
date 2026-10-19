@@ -1,0 +1,19 @@
+README.md
+  s_d0282e19f837c2::t_f4b64d206ff354 1-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.25",
+  "base_commit_sha": "eb994229b7b1914252df4ff347cb8d705a4fdaea",
+  "prompts": {},
+  "sessions": {
+    "s_d0282e19f837c2": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "2839e762-7775-47ec-9315-1938963b4393",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "zhangpengfei <Pengfei.Zhang@desaysv.com>"
+    }
+  }
+}
