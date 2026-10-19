@@ -1,0 +1,21 @@
+{
+  "name": "Huawei P40 Pro (XP whitelist)",
+  "notes": "小鹏安卓标定名单中的机型之一；字段以常见公开 Build 信息为起点，若开关仍不出可再对照真机 dumpsys。Android 版本保持真机，勿伪造过低/过高。",
+  "safeMode": true,
+  "build": {
+    "BRAND": "HUAWEI",
+    "MANUFACTURER": "HUAWEI",
+    "MODEL": "ELS-AN00",
+    "DEVICE": "HWELS",
+    "PRODUCT": "ELS-AN00",
+    "BOARD": "ELS",
+    "HARDWARE": "kirin990",
+    "DISPLAY": "ELS-AN00 10.1.0.126(C00E116R3P3)",
+    "FINGERPRINT": "HUAWEI/ELS-AN00/HWELS:10/HUAWEIELS-AN00/10.1.0.126C00:user/release-keys"
+  },
+  "doNotSpoof": [
+    "SDK_INT",
+    "RELEASE",
+    "SECURITY_PATCH"
+  ]
+}

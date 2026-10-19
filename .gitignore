@@ -1,0 +1,48 @@
+# OS / IDE
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+*.iml
+
+# Secrets / local
+.env
+.env.*
+*.keystore
+*.jks
+local.properties
+
+# Java / build
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Large / redistributable binaries (keep locally, don't push)
+tools/jdk-21/
+tools/*.zip
+tools/*.tar.gz
+apk/in/*.apk
+apk/in/*.apks
+apk/in/*.xapk
+apk/out/*.apk
+modules/*.apk
+
+# Keep directory placeholders
+!apk/in/.gitkeep
+!apk/out/.gitkeep
+!modules/.gitkeep
+!tools/.gitkeep
+
+# Temp / scratch
+docs/_*.html
+*.tmp
+*.bak
+
+# Tool binaries (download locally)
+tools/*.jar
+tools/*.apk
+tools/jdk-*/
